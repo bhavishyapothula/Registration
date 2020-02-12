@@ -14,9 +14,55 @@ namespace Registration
 
         }
 
+      
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void ValidateForm()
+        {
+            if(String.IsNullOrEmpty(fname.Text))
+            {
+                lblfn.Text = "Enter first name";
+            }
+            else
+            {
+                lblfn.Text = " ";
+            }
+            if (String.IsNullOrEmpty(lname.Text))
+            {
+                lblln.Text = "Enter last name";
+            }
+            else
+            {
+                lblln.Text = " ";
+            }
+            if (String.IsNullOrEmpty(email.Text))
+            {
+                lblmail.Text = "Enter email";
+            }
+            else
+            {
+                lblmail.Text = " ";
+            }
+            if (String.IsNullOrEmpty(phno.Text))
+            {  
+                lblphno.Text = "Enter phone number";
+            }
+            else
+            {
+                lblphno.Text = " ";
+            }
+        }
+
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("Registration successful");
+            ValidateForm();
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

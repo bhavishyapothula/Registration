@@ -33,6 +33,15 @@ namespace Registration
         protected global::System.Web.UI.WebControls.TextBox fname;
 
         /// <summary>
+        /// lblfn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblfn;
+
+        /// <summary>
         /// lname control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Registration
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox lname;
+
+        /// <summary>
+        /// lblln control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblln;
 
         /// <summary>
         /// email control.
@@ -51,6 +69,15 @@ namespace Registration
         protected global::System.Web.UI.WebControls.TextBox email;
 
         /// <summary>
+        /// lblmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblmail;
+
+        /// <summary>
         /// phno control.
         /// </summary>
         /// <remarks>
@@ -58,6 +85,15 @@ namespace Registration
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox phno;
+
+        /// <summary>
+        /// lblphno control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblphno;
 
         /// <summary>
         /// SqlDataSourceCountry control.
@@ -132,40 +168,13 @@ namespace Registration
         protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
 
         /// <summary>
-        /// Java control.
+        /// CheckBoxList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Java;
-
-        /// <summary>
-        /// doetnet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox doetnet;
-
-        /// <summary>
-        /// dep control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox dep;
-
-        /// <summary>
-        /// sdet control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox sdet;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
 
         /// <summary>
         /// Calendar1 control.
@@ -184,5 +193,23 @@ namespace Registration
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Button2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button2;
+
+        /// <summary>
+        /// Button3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button3;
     }
 }
